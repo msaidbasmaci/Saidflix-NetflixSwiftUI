@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5370052D2BE526240001227C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370052C2BE526240001227C /* MovieCell.swift */; };
+		5370052F2BE526410001227C /* DetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5370052E2BE526410001227C /* DetailsHeaderView.swift */; };
+		537005312BE526510001227C /* DetailsProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537005302BE526510001227C /* DetailsProductView.swift */; };
+		537005332BE526620001227C /* MyListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537005322BE526620001227C /* MyListButton.swift */; };
+		537005352BE5266F0001227C /* RateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537005342BE5266F0001227C /* RateButton.swift */; };
+		537005372BE526790001227C /* ShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537005362BE526790001227C /* ShareButton.swift */; };
+		537005392BE527C70001227C /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537005382BE527C70001227C /* MovieDetailsView.swift */; };
 		539164D62BCFFEFF0093453E /* SaidflixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539164D52BCFFEFF0093453E /* SaidflixApp.swift */; };
 		539164D82BCFFEFF0093453E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539164D72BCFFEFF0093453E /* ContentView.swift */; };
 		539164DA2BCFFF040093453E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 539164D92BCFFF040093453E /* Assets.xcassets */; };
@@ -26,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5370052C2BE526240001227C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		5370052E2BE526410001227C /* DetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsHeaderView.swift; sourceTree = "<group>"; };
+		537005302BE526510001227C /* DetailsProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductView.swift; sourceTree = "<group>"; };
+		537005322BE526620001227C /* MyListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListButton.swift; sourceTree = "<group>"; };
+		537005342BE5266F0001227C /* RateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateButton.swift; sourceTree = "<group>"; };
+		537005362BE526790001227C /* ShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareButton.swift; sourceTree = "<group>"; };
+		537005382BE527C70001227C /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
 		539164D22BCFFEFF0093453E /* Saidflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saidflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		539164D52BCFFEFF0093453E /* SaidflixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaidflixApp.swift; sourceTree = "<group>"; };
 		539164D72BCFFEFF0093453E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +114,12 @@
 				539164E82BD005810093453E /* FilterCell.swift */,
 				539164EA2BD0059C0093453E /* FilterBarView.swift */,
 				539164EE2BD005D50093453E /* HeroCell.swift */,
+				5370052C2BE526240001227C /* MovieCell.swift */,
+				5370052E2BE526410001227C /* DetailsHeaderView.swift */,
+				537005302BE526510001227C /* DetailsProductView.swift */,
+				537005322BE526620001227C /* MyListButton.swift */,
+				537005342BE5266F0001227C /* RateButton.swift */,
+				537005362BE526790001227C /* ShareButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -108,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				539164E62BD004C40093453E /* HomeView.swift */,
+				537005382BE527C70001227C /* MovieDetailsView.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -205,15 +226,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				539164E72BD004C40093453E /* HomeView.swift in Sources */,
+				5370052F2BE526410001227C /* DetailsHeaderView.swift in Sources */,
 				539164E92BD005810093453E /* FilterCell.swift in Sources */,
+				537005352BE5266F0001227C /* RateButton.swift in Sources */,
+				5370052D2BE526240001227C /* MovieCell.swift in Sources */,
 				539164F52BD010FD0093453E /* Product.swift in Sources */,
+				537005392BE527C70001227C /* MovieDetailsView.swift in Sources */,
+				537005312BE526510001227C /* DetailsProductView.swift in Sources */,
 				539164F92BD0112B0093453E /* DatabaseHelper.swift in Sources */,
 				539164F12BD007580093453E /* ImageLoaderView.swift in Sources */,
 				539164D82BCFFEFF0093453E /* ContentView.swift in Sources */,
 				539164F72BD011130093453E /* Constants.swift in Sources */,
+				537005372BE526790001227C /* ShareButton.swift in Sources */,
 				539164F32BD00C8D0093453E /* User.swift in Sources */,
 				539164EF2BD005D50093453E /* HeroCell.swift in Sources */,
 				539164D62BCFFEFF0093453E /* SaidflixApp.swift in Sources */,
+				537005332BE526620001227C /* MyListButton.swift in Sources */,
 				539164EB2BD0059C0093453E /* FilterBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
