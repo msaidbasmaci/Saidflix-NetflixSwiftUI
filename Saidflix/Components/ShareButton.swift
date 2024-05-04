@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ShareButton: View {
     
-    var url: String = "https://www.swiftful-thinking.com"
+    var url: String = "https://www.linkedin.com/in/saidbasmaci/"
     
     @ViewBuilder
     var body: some View {

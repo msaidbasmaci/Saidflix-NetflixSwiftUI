@@ -70,7 +70,7 @@ struct MovieDetailsView: View {
             hasClosedCaptions: true,
             isTopTen: 6,
             descriptionText: product.description,
-            castText: "Cast: Nick, Your Name, Someone Else",
+            castText: "Cast: Said Basmaci, Your Name, Someone Else",
             onPlayPressed: {
                 
             },
